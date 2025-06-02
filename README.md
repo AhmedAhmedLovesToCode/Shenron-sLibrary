@@ -23,5 +23,4 @@ It features characters, techniques, planets, Dragon Balls, and more, brought to 
 - 💾 No frameworks – lightweight and fast
 
 📸 Preview
-
-[Screenshot](./GreenShenron.jpg)  
+[Screenshot](https://github.com/user-attachments/assets/3177ed2f-68fd-4d00-aa07-c8a9078e7920)
