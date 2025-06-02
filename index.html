@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shenron's Library</title>
+    <link rel="stylesheet" href="Shenron'sLibrary.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+<body>
+
+
+    <div id="aboutMeBox" title="That's Me!" class="about-me">
+        <h2>Ahmed Ahmed</h2>
+        <img src="websiteProfilePic.jpeg" alt="Photo of Ahmed" class="profile-pic">
+        <p>
+            Sophmore Computer Science Student at University of North Carolina at Charlotte.
+            Passionate about Web Development, Dragon Ball, and interactive design.
+        </p>
+    </div>
+
+
+    <button id="loadDragonBalls">Summon the Dragon Balls</button>
+
+    <div id="dragonBallsPopup" class="popup-hidden">
+        <div id="dragonBallsContainer"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <ul class="navLinks">
+                <li class="dropdown1">
+                    <a href="Series.html">Series</a>
+
+
+                    <div class="dropdownMenuSeries">
+                        <div class="stanother">
+                            <a id="dbNavigation" href="Series.html#dbLogo" id="db" style="width: 175px;">Dragon Ball -></a>
+                            <div class="stdrop">
+                                <a href="Series.html#dbRRAH" style="pointer-events: auto;">Red Ribbon Army Saga</a>
+                                <a href="Series.html#dbTSH">Tien Shinhan Saga</a>
+                                <a href="Series.html#dbKPH">King Piccolo Saga</a>
+                                <a href="Series.html#dbPJH">Piccolo Jr. Saga</a>
+                            </div>
+                        </div>
+
+                        <div class="anotherDropDown">
+                            <a id="dbzNavigation" href="Series.html#dbzLogo">Dragon Ball Z -></a>
+                            <div class="dropSagas">
+                                <a href="Series.html#dbzSH">Saiyan Saga</a>
+                                <a href="Series.html#dbzFH">Frieza Saga</a>
+                                <a href="Series.html#dbzCH">Cell Saga</a>
+                                <a href="Series.html#dbzMBH">Buu Saga</a>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="anotherDropDown2">
+                                <a id="dbsNavigation" href="Series.html#dbsLogo">Dragon Ball Super -></a>
+                                <div class="dropSagas2">
+                                    <a href="Series.html#dbsBH">Beerus Saga</a>
+                                    <a href="Series.html#dbsGFH">Golden Frieza Saga</a>
+                                    <a href="Series.html#dbsU6H">Universe 6 Saga</a>
+                                    <a href="Series.html#dbsFH">Future Saga</a>
+                                    <a href="Series.html#dbsTOPH">Tournament of Power Saga</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="anotherDropDown3">
+                                <a id="dbgtNavigation" href="Series.html#dbgtLogo">Dragon Ball GT -></a>
+                                <div class="dropSagas3">
+                                    <a href="Series.html#dbgtBSDBH">Black Star Dragon Ball Saga</a>
+                                    <a href="Series.html#dbgtS17H">Super 17 Saga</a>
+                                    <a href="Series.html#dbgtBH">Baby Saga</a>
+                                    <a href="Series.html#dbgtSDH">Shadow Dragon Saga</a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <a id="dbNavigation" href="Series.html#dbdLogo">Dragon Ball Daima</a>
+                    </div>
+                </li>
+
+                <li class="dropdown2">
+                    <div class="characters-container"><a href="Characters.html">Characters</a>
+                        <div class="dropdownCharacters">
+                            <a id="saiyansNavigation" href="Characters.html#saiyansHeading">Saiyans</a>
+                            <a id="earthlingsNavigation" href="Characters.html#earthlingsh3">Earthlings</a>
+                            <a id="villainsNavigation" href="Characters.html#villainssh3">Villains</a>
+                            <a id="spiritualBeingsNavigation" href="Characters.html#spiritualBeingssh3">Spirtual Beings</a>
+                        </div>
+                    </div>
+                
+                </li>
+
+                <li class="dropdown3">
+                    <a href="Techniques.html">Techniques</a>
+                    <div class="dropdownTechniques">
+                        <a id="kiAttacksNavigation" href="Techniques.html#kiAttacksHeading">Ki Attacks</a>
+                        <a id="transformationsNavigation" href="Techniques.html#transformationsHeading">Transformations</a>
+                        <a id="uniqueAbilitiesNavigation" href="Techniques.html#uniqueAbilitiesHeading">Unique Abilities</a>
+                    </div>
+                </li>
+
+                <li class="dropdown4"><a href="Planets.html">Planets</a>
+                    <div class="dropdownPlanets">
+                        <a id="earthNavigation" href="Planets.html#earthHeading">Earth</a>
+                        <a id="namekNavigation" href="Planets.html#namekHeading">Namek</a>
+                        <a id="otherworldNavigation" href="Planets.html#otherworldHeading">Otherworld</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main>
+        <div class="container">
+            <div class="titleContainer">
+                <h1 id="h1">Shenron's Library</h1>    
+            </div>
+            
+
+            <div class="dragonBalls" id="dragonBallAccordion">
+                <h3>1-Star Dragon Ball</h3>
+                <div><img id="db1" src="DragonBalls/1star.png" alt="Dragon Ball 1"></div>
+                <h3>2-Star Dragon Ball</h3>
+                <div><img id="db2" src="DragonBalls/2star.png" alt="Dragon Ball 2"></div>
+                <h3>3-Star Dragon Ball</h3>
+                <div><img id="db3" src="DragonBalls/3star.png" alt="Dragon Ball 3"></div>
+                <h3>4-Star Dragon Ball</h3>
+                <div><img id="db4" src="DragonBalls/4star.png" alt="Dragon Ball 4"></div>
+                <h3>5-Star Dragon Ball</h3>
+                <div><img id="db5" src="DragonBalls/5star.png" alt="Dragon Ball 5"></div>
+                <h3>6-Star Dragon Ball</h3>
+                <div><img id="db6" src="DragonBalls/6star.png" alt="Dragon Ball 6"></div>
+                <h3>7-Star Dragon Ball</h3>
+                <div><img id="db7" src="DragonBalls/7star.png" alt="Dragon Ball 7"></div>
+            </div>             
+        </div>
+    </main>    
+    
+    <footer id="site-footer">
+        <div class="footer-content">
+          <p>© 2025 Shenron's Library. All rights reserved.</p>
+          <p>Created by Ahmed Ahmed <a href="https://github.com/AhmedAhmedLovesToCode" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+          <p>"Your wish is my command."</p>
+        </div>
+      </footer>
+      
+    <script src="Shenron'sLibrary.js"></script>
+</body>
+</html>

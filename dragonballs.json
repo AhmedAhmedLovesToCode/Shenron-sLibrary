@@ -1,0 +1,11 @@
+{
+    "dragonBalls": [
+      { "stars": 1, "description": "One-Star Dragon Ball, symbolizes new beginnings." },
+      { "stars": 2, "description": "Two-Star Dragon Ball, symbolizes balance and unity." },
+      { "stars": 3, "description": "Three-Star Dragon Ball, symbolizes growth and development." },
+      { "stars": 4, "description": "Four-Star Dragon Ball, Goku's grandfather's keepsake, symbolizes family." },
+      { "stars": 5, "description": "Five-Star Dragon Ball, symbolizes perseverance and strength." },
+      { "stars": 6, "description": "Six-Star Dragon Ball, symbolizes ambition and dreams." },
+      { "stars": 7, "description": "Seven-Star Dragon Ball, symbolizes completion and miracles." }
+    ]
+  }

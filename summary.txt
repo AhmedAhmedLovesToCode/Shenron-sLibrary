@@ -1,0 +1,36 @@
+a Meeting the Specifications
+My Shenron's Library website meets the assignment specifications as follows:
+Interactive Functionality:
+jQuery UI: Integrated the jQuery UI accordion widget to organize Dragon Ball content in a collapsible format, aiding user experience.
+jQuery Plugins: Added an intro plugin on the right-hand side to display personal information and an image.
+AJAX Requests: Implemented a central button-triggered AJAX request that fetches information about the 7 Dragon Balls and shows it in a toggleable popup.
+Conditional UI Display: A "Welcome to Shenron’s Library" popup appears only once per session using sessionStorage logic.
+Design & Usability Guidelines Followed:
+Consistent layout separation with external HTML, CSS, and JavaScript files.
+Responsive design using media queries.
+Use of semantic HTML for accessibility and better structure.
+Dragon Ball-themed visuals with stylized buttons, color palettes, and fonts.
+Ensured text contrast and keyboard-navigable elements for accessibility.
+
+b: Semester Progress and Learning Summary
+Over the semester, I made significant progress through each assignment:
+Assignment 1: Established the core layout with static HTML, learning proper structuring and content organization.
+Assignment 2: Introduced CSS to style the site, using layout models like flexbox for positioning and visual consistency.
+Assignment 3: Implemented jQuery UI components such as the accordion and began modularizing JavaScript for cleaner logic.
+Assignment 4: Integrated AJAX functionality and session-based conditional popups. Gained experience with dynamic data rendering and DOM manipulation.
+Key Learnings:
+Mastered how to effectively separate HTML, CSS, and JavaScript.
+Learned to use jQuery and plugins to add advanced interactivity.
+Developed AJAX logic to fetch and display external content asynchronously.
+Understood debugging and iterative refinement throughout the development process.
+
+c: Stakeholder Satisfaction and Future Plans
+How well the application meets stakeholder needs:
+The design and layout cater to Dragon Ball enthusiasts, providing interactive and structured access to saga-related content.
+The popup and accordion UI makes the site both engaging and user-friendly.
+Personal introduction helps users connect with the creator and adds credibility.
+Future Development Plans:
+Expand AJAX capabilities to fetch data from Dragon Ball-related APIs.
+Add search and filter tools for deeper content interaction.
+Enhance mobile responsiveness and optimize load times.
+Eventually convert the project into a React-based single-page application (SPA) for modern scalability and performance.

@@ -1,0 +1,746 @@
+body
+{
+    overflow-x: hidden;
+    background-color: beige;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+}
+
+.techniques h1
+{
+    display: block;
+    text-align: center;
+    font-size: 8rem;
+    color: hsl(122, 89%, 43%);
+    text-shadow: 2px 2px 4px white;
+    letter-spacing: 2px;
+    margin-top: none;
+    margin-bottom: 200px;
+}
+
+.techniquesContainer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.techniquesContainer img
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+
+.techniquesContainer p
+{
+
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 3em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.kiAttacks
+{
+    border: 1px solid lightblue;
+    box-shadow: 2px 2px 2px 2px lightblue;
+    margin-bottom: 500px;
+}
+.transformations
+{
+    border: 1px solid yellow;
+    box-shadow: 2px 2px 2px 2px yellow;
+    margin-bottom: 500px;
+}
+.uniqueAbilities
+{
+    border: 1px solid red;
+    box-shadow: 2px 2px 2px 2px red;
+    margin-bottom: 500px;
+}
+
+.kiAttacks:hover, .transformations:hover, .uniqueAbilities:hover
+{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 8px lightgrey);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#kiAttacksh3
+{
+    text-align: center;
+    color: blue;
+    font-size: 6em;
+    margin-top: 200px;
+    text-shadow: 3px 3px 6px black;
+}
+#transformationsh3
+{
+    text-align: center;
+    color: yellow;
+    font-size: 6em;
+    margin-top: 200px;
+    text-shadow: 3px 3px 6px black;
+}
+
+.kiAttacksText
+{
+    width: 45%;
+    line-height: 1.5;
+}
+
+.techniquesInfo img
+{
+    float: right;
+    width: 50%;
+}
+
+.kiAttacksContainer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.kiAttacksContainer p
+{
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 3em;
+    margin: 0 auto;
+    text-align: center;
+}
+.kiAttacksContainer img
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+
+
+.basicEnergyBlasts, .beamAttacks, .explosiveWaves, .signatureTechniques
+{
+    border: 1px solid lightblue;
+    box-shadow: 2px 2px 2px 2px lightblue;
+    margin-bottom: 500px;
+}
+.basicEnergyBlasts:hover, .beamAttacks:hover, .explosiveWaves:hover, .signatureTechniques:hover
+{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 8px lightgrey);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.transformationsContainer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.transformationsContainer p
+{
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 3em;
+    margin: 0 auto;
+    text-align: center;
+}
+.transformationsContainer img
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+.transformationsContainer2
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-top: -300px;
+}
+.transformationsContainer2 p
+{
+
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 3em;
+    margin: 0 auto;
+    text-align: center;
+}
+.transformationsContainer2 img
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+.kaioken, .superSaiyan, .superSaiyan2, .superSaiyan3, .superSaiyan4, .superSaiyanGod, .superSaiyanBlue, .ultraInstinct
+{
+    border: 1px solid yellow;
+    box-shadow: 2px 2px 2px 2px yellow;
+    margin-bottom: 500px;
+}
+.kaioken:hover, .superSaiyan:hover, .superSaiyan2:hover, .superSaiyan3:hover, .superSaiyan4:hover, .superSaiyanGod:hover, .superSaiyanBlue:hover, .ultraInstinct:hover
+{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 8px lightgrey);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#uniqueAbilitiesh3
+{
+    text-align: center;
+    color: red;
+    font-size: 6em;
+    margin-top: 200px;
+    text-shadow: 3px 3px 6px black;
+}
+.uniqueAbilitiesText
+{
+    width: 45%;
+    line-height: 1.5;
+}
+.uniqueAbilitiesContainer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.uniqueAbilitiesContainer p
+{
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 3em;
+    margin: 0 auto;
+    text-align: center;
+}
+.uniqueAbilitiesContainer img
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+.instantTransmission, .fusionDance, .potara, .senzuBeans
+{
+    border: 1px solid red;
+    box-shadow: 2px 2px 2px 2px red;
+    margin-bottom: 500px;
+}
+.instantTransmission:hover, .fusionDance:hover, .potara:hover, .senzuBeans:hover
+{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 8px lightgrey);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#basicEnergyBlastsInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 10px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#basicEnergyBlastsContainer:hover #basicEnergyBlastsInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+#beamAttacksInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#beamAttacksContainer:hover #beamAttacksInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+#explosiveWavesInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#explosiveWavesContainer:hover #explosiveWavesInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+#signatureTechniquesInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: -10px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#signatureTechniquesContainer:hover #signatureTechniquesInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+#kaiokenInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#kaiokenContainer:hover #kaiokenInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#kaiokenContainer:hover #kaiokenImage
+{
+    opacity: 0;
+}
+
+#superSaiyanInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#superSaiyanContainer:hover #superSaiyanInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#superSaiyanContainer:hover #superSaiyanImage
+{
+    opacity: 0;
+}
+
+#superSaiyan2Info
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#superSaiyan2Container:hover #superSaiyan2Info
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#superSaiyan2Container:hover #superSaiyanImage2
+{
+    opacity: 0;
+}
+
+#superSaiyan3Info
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: -5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#superSaiyan3Container:hover #superSaiyan3Info
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#superSaiyan3Container:hover #superSaiyanImage3
+{
+    opacity: 0;
+}
+
+#superSaiyan4Info
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#superSaiyan4Container:hover #superSaiyan4Info
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#superSaiyan4Container:hover #superSaiyanImage4
+{
+    opacity: 0;
+}
+
+#superSaiyanGodInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#superSaiyanGodContainer:hover #superSaiyanGodInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#superSaiyanGodContainer:hover #superSaiyanGodImage
+{
+    opacity: 0;
+}
+
+#superSaiyanBlueInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#superSaiyanBlueContainer:hover #superSaiyanBlueInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#superSaiyanBlueContainer:hover #superSaiyanBlueImage
+{
+    opacity: 0;
+}
+
+#ultraInstinctInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: -5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#ultraInstinctContainer:hover #ultraInstinctInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#ultraInstinctContainer:hover #ultraInstinctImage
+{
+    opacity: 0;
+}
+
+#instantTransmissionInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#instantTransmissionContainer:hover #instantTransmissionInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#instantTransmissionContainer:hover #instantTransmissionImage
+{
+    opacity: 0;
+}
+
+#fusionDanceInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#fusionDanceContainer:hover #fusionDanceInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#fusionDanceContainer:hover #fusionDanceImage
+{
+    opacity: 0;
+}
+
+#potaraInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#potaraContainer:hover #potaraInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#potaraContainer:hover #potaraImage
+{
+    opacity: 0;
+}
+
+#senzuBeansInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: -5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#senzuBeansContainer:hover #senzuBeansInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#senzuBeansContainer:hover #senzuBeansImage
+{
+    opacity: 0;
+}
+
+#exitMessage
+{
+    text-align: center;
+    position: absolute;
+    top: 5800px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background: green;
+    border: 2px solid white;
+    color: aquamarine;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 2em;
+    cursor: pointer;
+    text-decoration:dotted;
+    font-weight: bold;
+}
+#exitMessage:hover
+{
+    text-shadow: 1px 1px 2px #ffffff;
+}

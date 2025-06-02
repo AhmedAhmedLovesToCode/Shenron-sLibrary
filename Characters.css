@@ -1,0 +1,923 @@
+body
+{
+    overflow-x: hidden;
+    background-color: lightblue;
+}
+html 
+{
+    scroll-behavior: smooth;
+}
+.characters h1
+{
+    display: block;
+    text-align: center;
+    font-size: 8rem;
+    color: hsl(274, 81%, 32%);
+    text-shadow: 2px 2px 4px hsl(274, 81%, 32%);
+    letter-spacing: 2px;
+    margin-top: none;
+    margin-bottom: 200px;
+}
+
+.charactersContainer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 500px;
+    align-items: stretch;
+   
+}
+
+
+.charactersContainer img
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+
+.charactersContainer p
+{
+
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.saiyans, .earthlings, .villains, .spiritualBeings
+{
+    border: 1px solid lightblue;
+    box-shadow: 2px 2px 2px 2px lightblue;
+    margin-bottom: 500px;
+    flex: 1; 
+    text-align: center;
+}
+.saiyans:hover, .earthlings:hover, .villains:hover, .spiritualBeings:hover
+{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 8px white);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#saiyansh3
+{
+    text-align: center;
+    color: blue;
+    font-size: 6em;
+    margin-top: 200px;
+    text-shadow: 3px 3px 6px black;
+}
+#earthlingsh3
+{
+    text-align: center;
+    color: yellow;
+    font-size: 6em;
+    margin-top: 200px;
+    text-shadow: 3px 3px 6px black;
+}
+#spiritualBeingssh3
+{
+    text-align: center;
+    color: yellow;
+    font-size: 6em;
+    margin-top: 200px;
+    text-shadow: 3px 3px 6px black;
+}
+#villainssh3
+{
+    text-align: center;
+    color: yellow;
+    font-size: 6em;
+    margin-top: 200px;
+    text-shadow: 3px 3px 6px black;
+}
+
+.saiyansText
+{
+    width: 45%;
+    line-height: 1.5;
+}
+
+.saiyansInfo img
+{
+    float: right;
+    width: 50%;
+}
+
+.saiyansContainer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: stretch;
+}
+.saiyansContainer p
+{
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+.saiyansContainer img
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+
+.saiyans2Container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: -400px;
+    align-items: stretch;
+}
+.saiyans2Container p
+{
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+.saiyans2Container img
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+
+.saiyans3Container
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: -400px;
+    align-items: stretch;
+}
+.saiyans3Container p
+{
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+.saiyans3Container img
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+.goku, .vegeta, .gohan, .trunks, .broly, .goten, .pan, .gohan
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #d4a373;
+    padding: 10px;
+    box-sizing: border-box;  
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px burlywood;
+    margin-bottom: 500px;
+}
+.goku:hover, .vegeta:hover, .gohan:hover, .trunks:hover, .broly:hover, .goten:hover, .pan:hover, .gohan:hover
+{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 8px white);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.earthlingsText
+{
+    width: 45%;
+    line-height: 1.5;
+}
+
+.earthlingsInfo img
+{
+    float: right;
+    width: 50%;
+}
+.earthlingsContainer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: stretch;
+}
+.earthlingsContainer p
+{
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 15px;
+}
+.earthlingsContainer img
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+.krillin, .tien, .yamcha 
+{
+    border: 1px solid burlywood;
+    box-shadow: 2px 2px 2px 2px burlywood;
+    margin-bottom: 500px;
+}
+.krillin:hover, .tien:hover, .yamcha:hover 
+{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 8px white);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.spiritualBeingsText
+{
+    width: 45%;
+    line-height: 1.5;
+}
+
+.spiritualBeingsInfo img
+{
+    float: right;
+    width: 50%;
+}
+.spiritualBeingsContainer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.spiritualBeingsContainer p
+{
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 3em;
+    margin: 0 auto;
+    text-align: center;
+}
+.spiritualBeingsContainer img
+{
+    max-width: 100%;  
+    height: auto;  
+}
+.kais, .gods, .angels
+{
+    border: 1px solid burlywood;
+    box-shadow: 2px 2px 2px 2px burlywood;
+    margin-bottom: 500px;
+    flex: 1; 
+    text-align: center;
+}
+.kais:hover, .gods:hover, .angels:hover 
+{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 8px white);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.villainsText
+{
+    width: 45%;
+    line-height: 1.5;
+}
+
+.villainsInfo img
+{
+    float: right;
+    width: 50%;
+}
+
+.villainsContainer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: stretch;
+}
+.villainsContainer p
+{
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+.villainsContainer img
+{
+    width: 100%;
+    height: auto;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+
+.villainsContainer2
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    margin-top: -400px;
+    align-items: stretch;
+}
+.villainsContainer2 p
+{
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+.villainsContainer2 img
+{
+    width: 100%;
+    height: 100%;
+    max-height: 300px; 
+    object-fit: cover;  
+}
+
+.dbVillains, .dbzVillains, .dbsVillains, .dbgtVillains
+{
+    border: 1px solid burlywood;
+    box-shadow: 2px 2px 2px 2px burlywood;
+    margin-bottom: 500px;
+    flex: 1; 
+    text-align: center;
+}
+.dbVillains:hover, .dbzVillains:hover, .dbsVillains:hover, .dbgtVillains 
+{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 8px white);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#gokuInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: hsla(0, 9%, 69%, 0.93);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#gokuContainer:hover #gokuInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#gokuContainer:hover #gokuImage
+{
+   opacity: 0;
+}
+
+#vegetaInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 5px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: hsla(32, 82%, 45%, 0.93);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#vegetaContainer:hover #vegetaInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#vegetaContainer:hover #vegetaImage
+{
+   opacity: 0;
+}
+
+#brolyInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: -8px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: hsla(124, 83%, 42%, 0.93);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#brolyContainer:hover #brolyInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#brolyContainer:hover #brolyImage
+{
+   opacity: 0;
+}
+
+#trunksInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 8px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: hsl(0, 65%, 18%);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#trunksContainer:hover #trunksInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#trunksContainer:hover #trunksImage
+{
+   opacity: 0;
+}
+
+#gotenInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: -8px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: hsla(54, 78%, 41%, 0.93);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#gotenContainer:hover #gotenInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#gotenContainer:hover #gotenImage
+{
+   opacity: 0;
+}
+
+#gohanInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: hsla(279, 81%, 39%, 0.93);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#gohanContainer:hover #gohanInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#gohanContainer:hover #gohanImage
+{
+   opacity: 0;
+}
+
+#panInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: hsla(188, 81%, 39%, 0.93);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#panContainer:hover #panInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#panContainer:hover #panImage
+{
+   opacity: 0;
+}
+
+#krillinInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 8px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: hsla(72, 81%, 39%, 0.93);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#krillinContainer:hover #krillinInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#krillinContainer:hover #krillinImage
+{
+   opacity: 0;
+}
+
+#tienInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: hsla(0, 81%, 39%, 0.93);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#tienContainer:hover #tienInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#tienContainer:hover #tienImage
+{
+   opacity: 0;
+}
+
+#yamchaInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: -10px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: tan;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#yamchaContainer:hover #yamchaInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#yamchaContainer:hover #yamchaImage
+{
+   opacity: 0;
+}
+
+#kaisInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 10px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(225, 110, 179);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#kaisContainer:hover #kaisInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#kaisContainer:hover #kaisImage
+{
+   opacity: 0;
+}
+
+#godsInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(41, 219, 192);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#godsContainer:hover #godsInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#godsContainer:hover #godsImage
+{
+   opacity: 0;
+}
+
+#angelsInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: -10px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(41, 148, 190);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#angelsContainer:hover #angelsInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#angelsContainer:hover #angelsImage
+{
+   opacity: 0;
+}
+
+#dragonBallVillainsInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 8px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(41, 148, 190);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#dbVillainsContainer:hover #dragonBallVillainsInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#dbVillainsContainer:hover #dbVillainsImage
+{
+   opacity: 0;
+}
+
+#dragonBallSuperVillainsInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: -8px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(41, 148, 190);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#dbsVillainsContainer:hover #dragonBallSuperVillainsInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#dbsVillainsContainer:hover #dbsVillainsImage
+{
+   opacity: 0;
+}
+
+#dragonBallGTVillainsInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 50px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(41, 148, 190);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#dbgtVillainsContainer:hover #dragonBallGTVillainsInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#dbgtVillainsContainer:hover #dbgtVillainsImage
+{
+   opacity: 0;
+}
+
+#dragonBallZVillainsInfo
+{
+    display: none;
+    position: absolute;
+    border-top: 1px solid #999;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-y: auto;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgb(41, 148, 190);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+#dbzVillainsContainer:hover #dragonBallZVillainsInfo
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+#dbzVillainsContainer:hover #dbzVillainsImage
+{
+   opacity: 0;
+}
+
+#exitMessage
+{
+    text-align: center;
+    position: absolute;
+    top: 9200px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background: orange;
+    border: 2px solid white;
+    color: aquamarine;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 2em;
+    cursor: pointer;
+    text-decoration:dotted;
+    font-weight: bold;
+}
+#exitMessage:hover
+{
+    text-shadow: 1px 1px 2px #ffffff;
+}
